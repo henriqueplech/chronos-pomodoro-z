@@ -1,22 +1,22 @@
-import { Heading } from './components/Heading';
-
 import './styles/theme.css';
 import './styles/global.css';
-
-// PascalCase
-// App
-// HeaderHeading -> h1 do cabeçalho
-// ExemploDeComponente
+import { TimerIcon } from 'lucide-react';
+import { Heading } from './components/Heading';
 
 export function App() {
-
   return (
     <>
-      <Heading />
+      <Heading>
+        Olá mundo 1
+        <button>
+          <TimerIcon />
+        </button>
+      </Heading>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-        officiis beatae dolores autem sequi odit nulla. Corporis quas, neque,
-        reiciendis, facilis id in tempore porro ut fuga nihil cum molestiae.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum cumque
+        incidunt accusamus commodi quasi sit, doloribus in fugiat, repellat
+        laudantium voluptas praesentium labore dolore unde! Aliquam, dolorem! A,
+        quia rerum!
       </p>
     </>
   );
