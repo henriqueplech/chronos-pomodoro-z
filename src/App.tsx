@@ -9,7 +9,7 @@ import './styles/global.css';
 // ExemploDeComponente
 
 export function App() {
-  console.log('oi');
+
   return (
     <>
       <Heading />
