@@ -3,7 +3,7 @@
   "breadcrumbs.enabled": true,
   "editor.fontSize": 20,
   "debug.console.fontSize": 24,
-  "terminal.integrated.fontSize": 24,
+  "terminal.integrated.fontSize": 18,
   "editor.glyphMargin": false,
   "workbench.activityBar.location": "hidden",
   "editor.lineNumbers": "off",
