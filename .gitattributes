@@ -1,0 +1,7 @@
+# Trata a maioria dos arquivos automaticamente
+* text=auto
+
+# Força arquivos de configuração e lock a usar LF (padrão recomendado)
+*.yaml eol=lf
+*.json eol=lf
+*.md eol=lf
